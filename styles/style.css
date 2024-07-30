@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ .header{
+    padding: 2% 0% 0% 15%;
+ }
+
+ .header__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+ .header__menu__link{
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.header__menu__link:hover {
+    color: #007bff;
+}
+
+
+body{
+    background-color: black;
+    color: #F6F6F6;
+    box-sizing: border-box;
+}
+
+span{
+    color: #22D4FD;
+    font-weight: bold;
+}
+
+.presentacion{
+    padding: 7% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion__contenido
+{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.presentacion__contenido__titulo
+{
+    font-family: "Krona One", sans-serif;
+    font-size: 30px;
+    color: #0000FF;
+}
+
+.presentacion__contenido__texto
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.presentacion__enlaces_link{
+     /* background-color: #22D4FD; */ /* Código comentado */
+    width: 378px;
+    text-align: center;
+    padding: 21.5px 0px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    color: #F6F6F6;
+    border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center; 
+    gap: 16px;
+
+}
+
+.presentacion__enlaces_link:hover{
+    border: 2px solid #0000FF;
+    background-color: #272727;
+    cursor: pointer;
+
+    /* background-color: blue; */
+    /* padding: 3%; */
+}
+
+.presentacion__contenido__subtitulo{
+    font-family: "Kona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+span:hover{
+    background-color: darkgreen;
+}
+
+
+footer
+{
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.presentacion__contenido__articulo{
+    width: 574px;
+    padding: 10px 0px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    color: #F6F6F6;
+    text-align: justify;
+}
+
+.presentacion__contenido__educacion{
+    margin-left: 20px;
+    font-family: "Monstserrat",sans-serif;
+    font-size: 18px;
+    text-align: justify;    
+    margin-top: 10px;
+}
+
+.presentacion__contenido__perfil{
+    font-family: "Monstserrat",sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.2em; 
+
+}
+
+.presentacion__contenido__cv{
+    width: 100%;
+}
+
+.items{
+    padding-bottom: 10px;
+}
+
+.presentacion__contenido__categoria{
+    font-family: "Monstserrat",sans-serif;
+    color: #0000FF;
+    font-size: 26px;
+}
+
+.alura{
+    text-decoration: none;
+    color: #0000FF;
+}
+
+strong{
+    text-decoration: none;
+    color:#22D4FD;
+}
+
+.presentacion__contenido__experiencia{
+    margin-left: 20px;
+    font-family: "Monstserrat",sans-serif;
+    font-size: 18px;
+    text-align: justify;    
+    margin-top: 10px;   
+}
+
+.presentacion__contenido__cursos{
+    margin-left: 20px;
+    font-family: "Monstserrat",sans-serif;
+    font-size: 18px;
+    text-align: justify;    
+    margin-top: 10px;   
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.gallery-item {
+    background-color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item p {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+
+.proyectos{
+    color: #22D4FD;
+    font-size: 150%;
+
+}

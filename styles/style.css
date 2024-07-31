@@ -29,7 +29,7 @@
 
  .header__menu__link{
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
@@ -76,7 +76,7 @@ span{
 .presentacion__contenido__texto
 {
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.875rem;
     padding-bottom: 30px;
 }
 
@@ -84,7 +84,7 @@ span{
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 5px;
     border-radius: 5px;
     color: var(--color-secundario);
@@ -102,7 +102,7 @@ span{
     border-radius: 8px;
     font-family: var(--fuente-montserrat);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color:var(--color-secundario);
     border: 2px solid var(--color-terciario);
@@ -124,7 +124,7 @@ span{
 .presentacion__contenido__subtitulo{
     font-family: var(--fuente-krona);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 span:hover{
@@ -139,7 +139,7 @@ footer
     background-color: var(--color-terciario);
     text-align: center;
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -147,7 +147,7 @@ footer
     width: 574px;
     padding: 10px 0px;
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--color-secundario);
     text-align: justify;
 }
@@ -155,14 +155,14 @@ footer
 .presentacion__contenido__educacion{
     margin-left: 20px;
     font-family: var(--fuente-montserrat);
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: justify;    
     margin-top: 10px;
 }
 
 .presentacion__contenido__perfil{
     font-family: var(--fuente-montserrat);
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
     line-height: 1.2em; 
 
@@ -179,7 +179,7 @@ footer
 .presentacion__contenido__categoria{
     font-family: var(--fuente-montserrat);
     color: var(--color-enlaces);
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 .alura{
@@ -195,7 +195,7 @@ strong{
 .presentacion__contenido__experiencia{
     margin-left: 20px;
     font-family: var(--fuente-montserrat);
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: justify;    
     margin-top: 10px;   
 }
@@ -203,7 +203,7 @@ strong{
 .presentacion__contenido__cursos{
     margin-left: 20px;
     font-family: var(--fuente-montserrat);
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: justify;    
     margin-top: 10px;   
 }
@@ -242,3 +242,29 @@ strong{
     font-size: 150%;
 
 }
+
+/* .layout {
+    display: grid;
+    gap: 0.25rem;
+    grid-template-rows:
+        4rem 6rem auto 6rem 6rem 4rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'header' 'header'
+        'main' 'img'
+        'footer' 'footer';
+    height: 100vh;
+}
+
+@media (min-width: 480px) {
+    .layout {
+        display: grid;
+        grid-template-rows: 4rem auto 6rem 4rem;
+        grid-template-columns: 10rem auto auto;
+        grid-template-areas:
+            'header header header'
+            'presentacion presentacion presentacion'
+            'img img img'
+            'footer footer footer';
+    }
+} */

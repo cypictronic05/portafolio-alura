@@ -150,7 +150,7 @@ footer
     font-family: var(--fuente-montserrat);
     font-size: 1.5rem;
     font-weight: 400;
-    width: 100%;
+    width: auto;
 }
 
 .presentacion__contenido__articulo{
@@ -309,6 +309,10 @@ strong{
         width: 100%;
         font-size: 1.5rem;
     }    
+
+    .presentacion__imagen{
+        width: 100%;
+    }
 
 
     

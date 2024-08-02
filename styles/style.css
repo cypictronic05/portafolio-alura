@@ -148,7 +148,7 @@ footer
     background-color: var(--color-terciario);
     text-align: center;
     font-family: var(--fuente-montserrat);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
     width: auto;
 }
@@ -306,13 +306,14 @@ strong{
     }
 
     .presentacion__contenido__articulo{
-        width: 100%;
-        font-size: 1.5rem;
+        width: 95%;
+        font-size: 1.25rem;
     }    
 
     .presentacion__imagen{
         width: 100%;
     }
+
 
 
     

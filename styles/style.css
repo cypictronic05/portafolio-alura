@@ -49,10 +49,14 @@ body{
 span{
     color: var(--color-terciario);
     font-weight: bold;
+    font-size: 1.5625rem;
+    font-family: var(--fuente-montserrat);
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .presentacion{
-    padding: 7% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,7 +78,6 @@ span{
     color:var(--color-enlaces);
     text-align: justify;
     align-self: center;
-
 }
 
 .presentacion__contenido__texto
@@ -82,6 +85,7 @@ span{
     font-family: var(--fuente-montserrat);
     font-size: 1.875rem;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .presentacion__enlaces{
@@ -133,6 +137,7 @@ span{
 
 span:hover{
     background-color: var(--color-hover);
+    text-align: center;
 }
 
 
